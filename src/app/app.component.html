@@ -1,0 +1,8 @@
+<canvas baseChart
+        [labels]="doughnutChartLabels"
+        [datasets]="doughnutChartDatasets"
+        [options]="doughnutChartOptions"
+        [legend]="true"
+        (chartHover)="chartHovered($event)"
+        [type]="'doughnut'">
+</canvas>
